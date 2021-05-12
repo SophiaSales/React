@@ -8,5 +8,18 @@
 </head>
 <body>
     
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script> 
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+        const root = document.getElementById('root');
+
+        let nome = "Pedro";
+
+        ReactDOM.render(<h3>Seu nome é {nome}</h3>,root); //com o babel é possivel escrever codigo em html assim
+    </script>
 </body>
 </html>
