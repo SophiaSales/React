@@ -15,8 +15,20 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
     <script type="text/babel">
+
+        function MeuComponente(){
+
+            var nome = "João"
+            var apelido = "Ribeiro"
+
+            return (
+                <div>
+                    <h1>Olá React!</h1>
+                    <p>O meu nome é {nome} {apelido}</p>
+                </div>) 
+        }
         const root = document.getElementById('root');
-        ReactDOM.render('',root); //com o babel é possivel escrever codigo em html assim
+        ReactDOM.render(<MeuComponente/>,root); //com o babel é possivel escrever codigo em html assim
     </script>
 </body>
 </html>
