@@ -7,9 +7,7 @@ class App extends React.Component{
         }
     }
     render(){
-
-        return this.state.tempoBom && <p>O tempo esta bom.</p>
-
+        
         // return(                        usando metodo ternario
         //     this.state.tempoBom ? <p>O tempo esta bom.</p> : <p>O tempo esta mau.</p>
         // )
