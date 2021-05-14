@@ -1,7 +1,12 @@
 import React from "react";
-import Identificacao from './Identificacao';
-
+import Identificacao from './componetes/Identificacao';
+import Identificacao2 from './componetes2/Identificacao2';
 class App extends React.Component{
+
+  state = {
+    nome:"Joao",
+    apelido:"Ribeiro"
+  }
   render(){
     return(
       <div>
